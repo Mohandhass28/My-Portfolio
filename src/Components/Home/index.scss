@@ -1,0 +1,92 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    min-height: 40%;
+  }
+
+  h2 {
+    padding-top: 1.5rem;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  h1 {
+    color: azure;
+    font-size: 54px;
+    margin: 0;
+    font-family: "coolvetica";
+    letter-spacing: 2px;
+    font-weight: 400;
+    img {
+      margin: 0;
+      padding: 0;
+      width: 90px;
+      top: 6px;
+      position: relative;
+      height: auto;
+      opacity: 0;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+    span {
+      position: relative;
+      left: -20px;
+    }
+    strong {
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+  }
+  .side-image {
+    position: relative;
+    z-index: -1;
+    left: 35%;
+    /* top: 20%; */
+    bottom: 25%;
+    transform: rotateZ(-40deg);
+    .image {
+      width: 70%;
+      height: 70%;
+    }
+  }
+  .skill-page {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin-top: 5rem;
+    h2 {
+      font-family: 'Helvetica Neue';
+      font-weight: 500;
+      background-color: #b05ef3;
+      // border: 5px solid;
+      // border-color: #ffd700;
+      color: #b05ef3;
+      // color: #ffd700;
+      color: aliceblue;
+      
+      padding: 0.5rem;
+      border-radius: 1rem;
+    }
+  }
+  .text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+  
+    &:hover {
+      animation: rubberBand 1s;
+      color: #ffd700;
+    }
+  }
+  
+}
+
+
+/* Helvetica Neue
+La Belle Aurore
+Coolvetica */
